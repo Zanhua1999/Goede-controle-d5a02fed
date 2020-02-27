@@ -15,9 +15,9 @@ for (let i= 0; i < arr.length; i++) {
     }
 }
 if (points == 3) {
-    console.log('Je hebt alles goed');
+    document.write("Je hebt alles goed");
 }else {
-    console.log('Je hebt een fout');
+    document.write("Je hebt een fout");
 }points = 0;
 }
 
